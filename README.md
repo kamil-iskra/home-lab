@@ -1,7 +1,8 @@
 ## Projekt Home-Lab
 
 
-Projekt zakłada budowę kompleksowego, domowego laboratorium do nauki, testowania i praktycznego zdobywania doświadczenia z różnymi rozwiązaniami i narzędziami.
+Projekt zakłada budowę kompleksowego, domowego laboratorium opartego na platformie wirtualizacyjnej Proxmox VE do nauki,
+ testowania i praktycznego zdobywania doświadczenia z różnymi rozwiązaniami i narzędziami.
 
 ---
 
