@@ -3,6 +3,8 @@
 
 Projekt zakłada budowę kompleksowego, domowego laboratorium opartego na platformie wirtualizacyjnej Proxmox VE do nauki,
  testowania i praktycznego zdobywania doświadczenia z różnymi rozwiązaniami i narzędziami.
+
+ ![Schemat sieci](misc/home-lab-diagram-v2.png)
  
 Kluczowe elementy i narzędzia zbudowane w ramach projektu obejmują:
 
@@ -16,8 +18,11 @@ Narzędzia bezpieczeństwa:
 Środowiska i maszyny wirtualne:
 - Serwery Docker (Ubuntu Server z Dockerem i Portainerem): Używane do wdrażania i zarządzania kontenerami, w tym różnymi aplikacjami podatnymi na ataki.
 - Środowisko Windows Active Directory:
-       *  Windows Server 2022: Skonfigurowany jako kontroler domeny (Domain Controller) z usługami Active Directory, DHCP i DNS.
-       *  Windows 10/11: Stacje robocze podłączone do domeny, służące do testowania polityk grupowych i interakcji w środowisku domenowym.
+  - Windows Server 2022: Skonfigurowany jako kontroler domeny (Domain Controller) z usługami Active Directory, DHCP i DNS.
+  - Windows 10/11: Stacje robocze podłączone do domeny, służące do testowania polityk grupowych i interakcji w środowisku domenowym.
+
+Integracja z Proxmox Backup Server (PBS):
+- konfiguracja automatycznego backupu maszyn wirtualnych na zewnętrzny zasób sieciowy.
 
 Projekt stanowi praktyczne studium przypadku budowy i zarządzania złożoną infrastrukturą bezpieczeństwa, przedstawiającym wszechstronne doświadczenie w obszarze administracji systemami IT.
 
